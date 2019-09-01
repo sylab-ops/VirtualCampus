@@ -1,0 +1,138 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+.clear 
+{
+    clear:both;
+}
+body 
+{
+  background-color :rgb(240,254,254);
+  font-family :"Arial",Helevetica,sans-serif;
+  font-size :12px;
+}
+#top_header
+{
+    
+	padding : 7px;
+	text-align:center;
+	color:White;
+	font-size:20px;
+	font:bold;
+}
+.wrapper 
+{
+    
+	width : 1350px;
+	margin :auto;
+}
+.menu 
+{
+    background-color:Azure;
+    width:100%;
+    margin:0px 0px 10px;
+    padding :0px;
+    height:40px;
+    color:rgb(243,243,243);
+    border-radius: 5px 5px 5px 5px;
+}
+.menu ul li 
+{
+    float:left;
+    display:block;
+	list-style:none ;
+    border-right :2px solid Azure;
+    border-left:2px solid Azure;
+}
+.navigation_first_item 
+{
+    border-left:0px;
+    -moz-border-radius :5px 0 0 5px;
+    -webkit-border-radius :5px 0 0 5px;
+    border-radius:5px 0 0 px;
+}
+.navitem_s
+{
+     float:left;
+      border-right : 1px solid rgb(10,85,125);
+      border-left : 1px solid rgb(67,153,200);
+      height:40px;
+      background-color :rgb(14,79,114);
+}
+.menu ul li.navigation_first_item:hover
+{
+    border-radius:5px 5px 5px 5px;
+}
+.menu ul li a 
+{
+    font-size:13px;
+    font-weight:bold;
+    line-height:40px;
+    padding:80px 20px;
+    color:Black;
+    text-decoration:none;
+}
+.menu ul li:hover
+{
+    background-color :rgb(14,79,114);
+    border-right:1px solid rgb(14,89,130);
+    border-radius:5px 5px 5px 5px;
+}
+.content 
+{
+      width:100%;
+    background-color : rgb(240,254,254);
+    border:1px solid rgb(224,224,224);
+     border-radius :10px 10px 10px 10px;
+    float :left ;
+     margin-top :8px;
+     margin-bottom : 8px;
+      min-height :320px;
+}
+.footer 
+{
+    clear:both;
+	text-align:center;
+	padding:10px;
+	border:1px solid ;
+	border-right :2px solid rgb(10,85,125);
+    background-color:DodgerBlue;
+    width:98.0%;
+    margin:0px 0px 10px;
+    height:16px;
+    color:White;
+    border-radius: 5px 5px 5px 5px;
+    border-left:2px solid rgb(67,153,200);
+   
+}
+.side_news 
+{
+    float:right;
+    width:220px;
+    margin:20px 0px;
+    padding:30px;
+    background:#66CCCC;
+}
+ #ContactBox
+ {
+     display:block;
+     margin:15px auto;
+     color:#ffffff;
+     -webkit-border-radius:10px;
+     opacity:0.6;
+     background:red;
+     width:400Px;
+     height:300px;
+     -webkit-transition:-webkit-transform 2s,opacity 2s,background 2s,width 2s,height 2s;
+ }
+ #ContactBox:hover 
+ {
+     -webkit-transform: rotate(360deg);
+     opacity:1;
+     background:#1ec7e6;
+     width:450px;
+     height:200px;
+ }
+

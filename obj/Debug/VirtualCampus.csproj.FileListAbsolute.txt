@@ -1,0 +1,40 @@
+c:\users\impossible inside.microsoft\documents\visual studio 2010\Projects\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+c:\users\impossible inside.microsoft\documents\visual studio 2010\Projects\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+c:\users\impossible inside.microsoft\documents\visual studio 2010\Projects\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+c:\users\impossible inside.microsoft\documents\visual studio 2010\Projects\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+C:\Users\Impossible Inside.Microsoft\Documents\Visual Studio 2010\Projects\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.csprojResolveAssemblyReference.cache
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+C:\Users\SYLVESTER-PC\Desktop\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+C:\Users\SYLVESTER-PC\Desktop\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.csprojResolveAssemblyReference.cache
+C:\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+C:\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+C:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+C:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+E:\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+E:\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+E:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.csprojResolveAssemblyReference.cache
+E:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+E:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+D:\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+D:\VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+D:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+D:\VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+E:\$SoftZone_$\Projects\Projects\5 & 6 Projects\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\BigBelieverMindSet\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+C:\Users\SYLVESTER-PC\Desktop\BigBelieverMindSet\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\BigBelieverMindSet\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+C:\Users\SYLVESTER-PC\Desktop\BigBelieverMindSet\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\Web Developments Projx\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.dll
+C:\Users\SYLVESTER-PC\Desktop\Web Developments Projx\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\bin\VirtualCampus.pdb
+C:\Users\SYLVESTER-PC\Desktop\Web Developments Projx\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.csprojResolveAssemblyReference.cache
+C:\Users\SYLVESTER-PC\Desktop\Web Developments Projx\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.dll
+C:\Users\SYLVESTER-PC\Desktop\Web Developments Projx\VI_Sem_VirtualCampus\VirtualCampus\VirtualCampus\obj\Debug\VirtualCampus.pdb

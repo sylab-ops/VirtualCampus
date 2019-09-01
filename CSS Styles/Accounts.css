@@ -1,0 +1,122 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+.clear 
+{
+    clear:both;
+}
+body 
+{
+  background-color :Azure;
+  font-family :"Arial",Helevetica,sans-serif;
+  font-size :12px;
+}
+#top_header
+{
+    -moz-border-radius :5px 5px 5px 5px;
+    -webkit-border-radius :5px 5px 5px 5px;
+    border-radius:5px 0 0 px;
+    background-color:Azure; 
+	padding : 7px;
+	text-align:center;
+	color:White;
+	font-size:20px;
+	font:bold;
+	
+}
+.wrapper 
+{
+	width : 1350px;
+	margin : 10px auto;
+	text-align : left;
+}
+.menu 
+{
+    background-color:Azure;
+    width:100%;
+    margin:0px 0px 10px;
+    padding :0px;
+    height:40px;
+    color:rgb(243,243,243);
+    border-radius: 10px 10px 10px 10px;
+}
+.menu ul li 
+{
+    float:left;
+    display:block;
+	list-style:none ;
+    border-right :2px solid Azure;
+    border-left:2px solid Azure;
+}
+.navigation_first_item 
+{
+    border-left:0px;
+    -moz-border-radius :5px 0 0 5px;
+    -webkit-border-radius :5px 0 0 5px;
+    border-radius:5px 0 0 px;
+}
+.navitem_s
+{
+     float:left;
+      border-right : 1px solid rgb(10,85,125);
+      border-left : 1px solid rgb(67,153,200);
+      height:40px;
+      background-color :rgb(14,79,114);
+}
+.menu ul li.navigation_first_item:hover
+{
+    border-radius:10px 10px 10px 10px;
+}
+.menu ul li a 
+{
+    font-size:13px;
+    font-weight:bold;
+    line-height:40px;
+    padding:80px 20px;
+    color:Black;
+    text-decoration:none;
+    border-radius:10px 10px 10px 10px;
+}
+.menu ul li:hover
+{
+    background-color:DodgerBlue;
+    border-right:1px solid Azure;
+    border-radius:10px 10px 10px 10px;
+}
+.content 
+{
+      width:100%;
+    background-color:Azure;
+    border:1px solid rgb(224,224,224);
+     border-radius :5px 5px 5px 5px;
+    float :left ;
+     margin-top :8px;
+     margin-bottom : 8px;
+      min-height :320px;
+}
+.footer 
+{
+    clear:both;
+	text-align:center;
+	padding:10px;
+	border:1px solid green;
+	border-right :2px solid DarkOliveGreen;
+    background-color :DodgerBlue;
+    width:98%;
+    margin:0px 0px 10px;
+    height:10px;
+    color:Black;
+    border-radius: 10px 10px 10px 10px;
+    border-left:2px solid Green;
+}
+.side_news 
+{
+    float:right;
+    width:220px;
+    margin:20px 0px;
+    padding:30px;
+    background:#66CCCC;
+}
+ 
