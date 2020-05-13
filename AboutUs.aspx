@@ -78,9 +78,6 @@ About Developers
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p class="MsoNormal">
-                    <span class="style11" lang="EN-US">Here I fall short of words while expressing 
-                    my acknowledgements. At this junction I ran short of words to say, some feelings are better expressed in silence than 
-                    in&nbsp; spoken words:)</span></p>
                 <p>&nbsp;</p>
                 <p class="style10">
                     <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>
