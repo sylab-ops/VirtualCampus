@@ -133,6 +133,7 @@ Student Academic Information
                 </strong>
             </td>
             <td>
+                <br>
                 <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" 
                     AutoGenerateRows="False" DataKeyNames="Student_id" 
                     DataSourceID="SqlDataSource1" Height="61px" Width="485px">
