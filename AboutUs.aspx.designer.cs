@@ -22,3 +22,4 @@ namespace VirtualCampus {
         protected global::System.Web.UI.WebControls.Image Image1;
     }
 }
+//comments
