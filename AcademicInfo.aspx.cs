@@ -19,7 +19,7 @@ namespace VirtualCampus
         protected void Button1_Click(object sender, EventArgs e)
         {
             lblHeader.Text = "";
-
+            //Connections
             SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=|DataDirectory|\\Serverdatabase.mdf;Integrated Security=True;User Instance=True");
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
