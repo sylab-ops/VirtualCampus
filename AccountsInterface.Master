@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AccountsInterface.master.cs" Inherits="VirtualCampus.AccountsInterface" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>
+        <asp:ContentPlaceHolder ID="InterfacetitlePlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="CSS%20Styles/Accounts.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .style2
+        {
+            width: 151px;
+            height: 313px;
+            text-align: left;
+            margin-left: 80px;
+        }
+        .style3
+        {
+            height: 313px;
+            width: 1154px;
+        }
+        .style4
+        {
+            height: 355px;
+            width: 1342px;
+        }
+        .style5
+        {
+            width: 1134px;
+            height: 421px;
+             overflow: scroll;
+         }
+         .style6
+         {
+             width: 100%;
+         }
+         .style9
+         {
+             text-align: right;
+             width: 1200px;
+         }
+         .style10
+         {
+             color: #CC66FF;
+         }
+         .style11
+         {
+             text-decoration: none;
+         }
+         .style12
+         {
+             text-align: center;
+         }
+         .style13
+         {
+             text-align: left;
+             width: 12px;
+         }
+         .style14
+         {
+             background-color: #FFFFFF;
+         }
+         </style>
+</head>
+<body>
+     <form id="form1" runat="server">
+     <div class="wrapper">
+         <div class="logo">
+             <header id="top_header">
+             <asp:Image 
+                 ID="Image1" runat="server" Height="62px" ImageUrl="~/ImagesUsed/AccHeader.png" 
+                 Width="588px" />
+        </header>
+        </div>
+
+             <table class="style6">
+                 <tr>
+                     <td class="style9">
+                         <strong>
+                         &nbsp;&nbsp;
+                         <asp:Label 
+            ID="Label1" runat="server" Font-Size="Small" ForeColor="#6666FF" 
+            Text="Welcome : " CssClass="style10"></asp:Label>
+                         </strong>
+                     </td>
+                     <td class="style13">
+                         <strong>
+        <asp:Label ID="lblUser" runat="server" Font-Size="Small" ForeColor="#FF66CC"></asp:Label>
+                         </strong>
+                     </td>
+                     <td class="style12">
+                         &nbsp;
+        <asp:LinkButton ID="Linklogout" runat="server" Font-Bold="True" 
+            Font-Size="Small" onclick="LinkButton1_Click" CausesValidation="False" CssClass="style11" 
+                             ForeColor="Black">Sign Out</asp:LinkButton>
+                     </td>
+                 </tr>
+             </table>
+    
+    <div class="menu" style="overflow: hidden">
+    <ul>
+    <li class = "navigation_first_item "><a href="AccountsHome.aspx">Home</a> </li>
+    <li><a href="Payroll.aspx">Payroll Management</a></li>
+    <li><a href="StudentfeePay.aspx">Student Fee Payment Section</a></li>
+    <li><a href="Scholarshiptransaction.aspx">SC/ST Scholarship Management</a></li>
+    </ul>
+    </div>
+    <div class="content">
+    <table class="style4" border="1" >
+    <tr>
+    <td style="vertical-align:top" class="style2">
+        <asp:TreeView ID="TreeView1" runat="server" BackColor="Azure" 
+            BorderStyle="Ridge" ForeColor="Black" Height="421px" Width="193px" 
+            CssClass="style14">
+            <Nodes>
+                <asp:TreeNode Text="Administrative Tasks" Value="Student Transactions" 
+                    SelectAction="None" ToolTip="Security Features">
+                    <asp:TreeNode Text="Payroll Manager" Value="Student Registration" 
+                        NavigateUrl="~/Payroll.aspx">
+                    </asp:TreeNode>
+                    <asp:TreeNode Text="StudentFee Manager" Value="Student Information" 
+                        NavigateUrl="~/StudentFeePay.aspx">
+                    </asp:TreeNode>
+                    <asp:TreeNode Text="SC/ST Scholarship Manager" Value="Delete Student Login" 
+                        NavigateUrl="~/Scholarshiptransaction.aspx">
+                    </asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Text="Transactions Details" Value="Transactions Details">
+                    <asp:TreeNode Text="Recent Payroll Trans" Value="Payroll Transactions Log" 
+                        NavigateUrl="~/PayrollEntries.aspx">
+                    </asp:TreeNode>
+                    <asp:TreeNode Text="Recent Fee Transactions" Value="Student Fee Pay Logs" 
+                        NavigateUrl="~/StudentFeeEntries.aspx">
+                    </asp:TreeNode>
+                    <asp:TreeNode Text="Recent Scholarship Trans" 
+                        Value="Scholarship Transaction Logs" 
+                        NavigateUrl="~/ScholrshipEntries.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode SelectAction="None" Text="Logged Sessions History" 
+                    Value="Logged Sessions History">
+                    <asp:TreeNode NavigateUrl="~/AccountsLogs.aspx" Text="Accounts Logins" 
+                        Value="Accounts Logins"></asp:TreeNode>
+                </asp:TreeNode>
+            </Nodes>
+        </asp:TreeView>
+        </td>
+    <td style="vertical-align:top" class="style3" >
+    <div style="border-style: solid; border-width: thin; background-color:Transparent; display: block; " 
+            class="style5" aria-orientation="horizontal">
+        <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+       
+        </asp:contentplaceholder>
+        </div>
+        </table>
+        </div>
+    </div>
+    
+    <div class="footer">
+    ©2017  Project by  <em>Sylvester .A</em>
+    </div>
+    </form>
+</body>
+</html>
