@@ -6,3 +6,10 @@ The key concepts of our project is to connect student & college anytime, anywher
 # Technology used:
 - Front End environment: HTML, CSS, 
 - Back End environment: C#, asp.net, JavaScript, and SQL server
+
+# Team memberas:
+- Abraham Sylvester
+- Abiodun Olalekan Awowole,
+- Tolulope Ige Adetayo
+- Bill Yengo
+
