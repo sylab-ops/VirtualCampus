@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="VirtualCampus.Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="titleplaceholder" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="CSS%20Styles/Homepage.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            width: 151px;
+            height: 348px;
+            text-align: left;
+            margin-left: 80px;
+        }
+        .style3
+        {
+            height: 348px;
+            width: 1145px;
+        }
+        .style4
+        {
+            height: 438px;
+            width: 1342px;
+        }
+        .style5
+        {
+            width: 1161px;
+            height: 432px;
+            overflow:scroll;
+        }
+        .style6
+        {
+            height: 96px;
+            width: 1347px;
+        }
+        .style7
+        {
+            width: 1350px;
+            height: 1px;
+        }
+        </style>
+      </head>
+      <body>
+      <form id="formStudent" runat="server">
+    <div class="wrapper">
+    <div class="logo">
+        <img src="ImagesUsed/header%20original.png" alt="Official Logo" 
+            class="style6" />
+        </div>
+    <div class="menu" style="overflow: hidden">
+    <ul class="style7">
+    <li class = "navigation_first_item " style="width: 78px"><a href="Default.aspx">Home</a> </li>
+    <li><a href="CoursesOffered.aspx">Courses Offered</a></li>
+    <li><a href="Placements.aspx">Placements</a></li>
+    <li><a href="Fests.aspx">InterCollegiate Fests</a></li>
+    <li><a href="AboutUs.aspx">About Us</a></li>
+    <li><a href="ContactUs.aspx">Contact Us</a></li>
+    </ul>
+    </div>
+    <div class="content">
+    <table class="style4" >
+    <tr>
+    <td style="vertical-align:top"; "background-color:Transparent"; class="style2">
+        <strong>
+        <asp:TreeView ID="TreeView1" runat="server" BackColor="Azure" 
+            BorderColor="Azure" BorderStyle="Ridge" Height="432px" Width="172px" 
+            ShowLines="True" ForeColor="#003399" EnableTheming="True">
+            <HoverNodeStyle BackColor="#FF99FF" BorderColor="#663300" BorderStyle="None" />
+            <Nodes>
+                <asp:TreeNode Expanded="True" SelectAction="None" Text="Authentication" 
+                    Value="Authentication">
+                    <asp:TreeNode Text="Admin Login" Value="Admin Login" 
+                        NavigateUrl="~/AdminLogin.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="Student Login" Value="Student Login" 
+                        NavigateUrl="~/StudentLogin.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="Accounts Login" Value="Accounts Transactions" 
+                        NavigateUrl="~/AccountsLogin.aspx">
+                    </asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Expanded="True" SelectAction="None" Text="Precious Messages" 
+                    Value="Developer's Detials">
+                    <asp:TreeNode Text="Principal's Message" Value="About Developer" 
+                        NavigateUrl="~/PrincipalsMessage.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Expanded="True" SelectAction="None" Text="Emergency Contacts" 
+                    Value="Troubleshooting">
+                    <asp:TreeNode Text="Bangalore University" Value="Common Causes" 
+                        NavigateUrl="~/BangaloreUniversityContacts.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="Anti-Harrassment Cell" Value="Fixes" 
+                        NavigateUrl="~/Anti-HarrasmentCell.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="Developer's Details" Value="Call For Troubleshoot" 
+                        NavigateUrl="~/TroubleShoot.aspx">
+                    </asp:TreeNode>
+                </asp:TreeNode>
+            </Nodes>
+        </asp:TreeView>
+                </strong>
+                </td>
+    <td style="vertical-align:top" class="style3" >
+    <div style="border: medium ridge #F0FFFF; background-color:Transparent; " 
+            class="style5">
+        <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+            
+    
+        </asp:contentplaceholder>
+        </div>
+       </table>
+        </div>
+        </div>
+    
+    <div class="footer">
+    <p><span>©Copyright 2017-S</span><em>ylvester Abraham</em></p>
+    </div>
+    </form>
+</body>
+</html>
