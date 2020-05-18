@@ -74,7 +74,7 @@ About Developers
                 <p class="style11">
                 <span>
                     <strong>&nbsp;I am thankful to each and every person who has helped in the Successful 
-                    Completion of this Project.</strong><o:p></o:p></span></p>
+                    Completion of this Project. We look forward to working on more projects.</strong><o:p></o:p></span></p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p class="MsoNormal">
