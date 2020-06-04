@@ -26,4 +26,3 @@ This project is aimed to help the college institutions to overcome the problems 
 - STEP 2 : Open Visual Studio –> File –> Open –> Website
 - STEP 3 : Change Database name in web.config file.
 - STEP 4 : Run the Project….DONE.
->>>>>>> 58ee7ca759f23928bccf245123e1cdadb8420a1b
