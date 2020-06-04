@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-# VirtualCampus
-The implementation of this project is to create a virtual platform of interaction between the College Staffs and Students. The organogram of college operation system becomes more efficient, accurate & less complex. 
-Our project falls under the category of web application programs in which I try to reduce the human efforts in “College Campus” and creating smooth flow of work anytime anywhere using proper authentication. 
-The key concepts of our project is to connect student & college anytime, anywhere all 24/7 and 365 days a year, this is the network of connections only between the administrators, accounts department, students of the institution.
-
-# Technology used:
-- Front End environment: HTML, CSS, and JavaScript
-- Back End environment: C#, asp.net, and SQL server
-
-# Team memberas:
-- Abraham Sylvester
-- Abiodun Olalekan Awowole,
-- Tolulope Ige Adetayo
-- Bill Yengo
-
 =======
 # Project Title: VirtualCampus
 This project is aimed to help the college institutions to overcome the problems they face in day to day life including the manually operational overhead work due to which the documents of the institutions cannot be processed for approvals and the problems of managing student database, employee’s database, student scholarship database, Accounts management, payroll management, student management etc... 
