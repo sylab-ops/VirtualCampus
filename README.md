@@ -16,13 +16,7 @@ This project is aimed to help the college institutions to overcome the problems 
 - RAM					             :	256MB or more
 
 # Team members: 
-- Abraham Sylvester
-- Abiodun Olalekan Awowole
-- Toulope Ige Adetayo
-- Achwe Yengo Bill Arnold
-
-# Instructions to Execute
-- STEP 1 : Import SQL Stored Procedure
-- STEP 2 : Open Visual Studio –> File –> Open –> Website
-- STEP 3 : Change Database name in web.config file.
-- STEP 4 : Run the Project….DONE.
+- Abraham Sylvester(Team Lead)
+- Abiodun Olalekan Awowole(FrontEnd Developer)
+- Toulope Ige Adetayo(FrontEnd Developer)
+- Achwe Yengo Bill Arnold(FullStack)
